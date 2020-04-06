@@ -1,0 +1,86 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .header p  {
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+
+    .my-btn {
+        font-size: 25px;
+        width: 240px;
+        height: 60px;
+    }
+ 
+
+
+ .portfolio {
+    margin-top: 0px !important;
+}
+
+}
+
+/* Small devices (landscape phones upto 767px) */
+@media (max-width: 767px) {
+
+    .device-img {
+        margin-top: -110px;
+    }
+
+    .portfolio .circle-shape {
+        display: none;
+    }
+
+    .ellipse-fill {
+        display: none;
+    }
+
+    .rank.rank-right {
+        margin-bottom: 50px;
+     }
+
+     .our-client-result {
+        height: auto;
+    }
+
+    .portfolio {
+        margin-top: 0px !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .device-img {
+        margin-top: -100px;
+    }
+
+  
+
+ }
+
+/* Large devices (desktops and laptop) */
+@media (max-width: 1199px) {
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+ }
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1600px) {
+  .header {
+      background: url(../images/header-bg-lg.png) no-repeat center center/cover;
+  }
+ }
